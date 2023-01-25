@@ -1,0 +1,49 @@
+﻿Сборка начата 25.01.2023 23:28:34.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\ArtSolo\source\repos\Neyrobugurt\Project6\Project6.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Project6.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+     1>InitializeBuildStatus:
+         Создание "Debug\Neyrobugurt.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       VcpkgTripletSelection:
+         Using triplet "x86-windows" from "C:\vcpkg\installed\x86-windows\"
+         Using normalized configuration "Debug"
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /I"C:\vcpkg\installed\x86-windows\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Source.cpp
+         Source.cpp
+     1>C:\Users\ArtSolo\source\repos\Neyrobugurt\Project6\Source.cpp(114,20): warning C4018: <: несоответствие типов со знаком и без знака
+     1>C:\Users\ArtSolo\source\repos\Neyrobugurt\Project6\Source.cpp(115,21): warning C4018: <: несоответствие типов со знаком и без знака
+     1>C:\Users\ArtSolo\source\repos\Neyrobugurt\Project6\Source.cpp(156,21): warning C4018: <: несоответствие типов со знаком и без знака
+     1>C:\Users\ArtSolo\source\repos\Neyrobugurt\Project6\Source.cpp(187,22): warning C4018: <: несоответствие типов со знаком и без знака
+     1>C:\Users\ArtSolo\source\repos\Neyrobugurt\Project6\Source.cpp(192,22): warning C4018: <: несоответствие типов со знаком и без знака
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ArtSolo\source\repos\Neyrobugurt\Debug\Neyrobugurt.exe" /INCREMENTAL /ILK:"Debug\Neyrobugurt.ilk" /NOLOGO /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ArtSolo\source\repos\Neyrobugurt\Debug\Neyrobugurt.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ArtSolo\source\repos\Neyrobugurt\Debug\Neyrobugurt.lib" /MACHINE:X86 Debug\Source.obj
+         Project6.vcxproj -> C:\Users\ArtSolo\source\repos\Neyrobugurt\Debug\Neyrobugurt.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\ArtSolo\source\repos\Neyrobugurt\Debug\Neyrobugurt.exe" "C:\vcpkg\installed\x86-windows\debug\bin" "Debug\Neyrobugurt.tlog\Neyrobugurt.write.1u.tlog" "Debug\vcpkg.applocal.log"
+         "pwsh.exe" не является внутренней или внешней
+         командой, исполняемой программой или пакетным файлом.
+         Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\ArtSolo\source\repos\Neyrobugurt\Debug\Neyrobugurt.exe" "C:\vcpkg\installed\x86-windows\debug\bin" "Debug\Neyrobugurt.tlog\Neyrobugurt.write.1u.tlog" "Debug\vcpkg.applocal.log"" с кодом 9009.
+         "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\ArtSolo\source\repos\Neyrobugurt\Debug\Neyrobugurt.exe" "C:\vcpkg\installed\x86-windows\debug\bin" "Debug\Neyrobugurt.tlog\Neyrobugurt.write.1u.tlog" "Debug\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Файл "Debug\Neyrobugurt.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Neyrobugurt.tlog\Neyrobugurt.lastbuildstate".
+     1>Сборка проекта "C:\Users\ArtSolo\source\repos\Neyrobugurt\Project6\Project6.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\ArtSolo\source\repos\Neyrobugurt\Project6\Project6.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Project6.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+
+       "C:\Users\ArtSolo\source\repos\Neyrobugurt\Project6\Project6.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\ArtSolo\source\repos\Neyrobugurt\Project6\Source.cpp(114,20): warning C4018: <: несоответствие типов со знаком и без знака
+         C:\Users\ArtSolo\source\repos\Neyrobugurt\Project6\Source.cpp(115,21): warning C4018: <: несоответствие типов со знаком и без знака
+         C:\Users\ArtSolo\source\repos\Neyrobugurt\Project6\Source.cpp(156,21): warning C4018: <: несоответствие типов со знаком и без знака
+         C:\Users\ArtSolo\source\repos\Neyrobugurt\Project6\Source.cpp(187,22): warning C4018: <: несоответствие типов со знаком и без знака
+         C:\Users\ArtSolo\source\repos\Neyrobugurt\Project6\Source.cpp(192,22): warning C4018: <: несоответствие типов со знаком и без знака
+
+    Предупреждений: 6
+    Ошибок: 0
+
+Прошло времени 00:00:02.87
